@@ -23,9 +23,9 @@ the alarm UI should make the usual alarm one touch away.
 
 - A horizontal scrubber showing the time, dragged left and right.
 - Snaps to 15-minute steps. The time is shown on the thumb.
-- Pops up from the bottom of the alarm list, as part of the list flow, like
-  the menus that appear from the top but from the opposite direction.
-  Reached by scrolling past the bottom of the list.
+- A separate control, not part of the alarm list. It comes up at the bottom
+  when scrolling down past the end of the list, and hides again when
+  scrolling back up.
 - This slider is the main way to set a time.
 - Replaces the stock `TimePickerDialog` (`alarms/TimePickerDialogFragment.java`).
 - Open: whole day, or a window (e.g. 04:00 to 10:00)? New alarm or edit the
